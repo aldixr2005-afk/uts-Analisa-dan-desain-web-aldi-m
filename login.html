@@ -1,0 +1,33 @@
+vvvv
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Selamat Datang Kembali</h1>
+        <p>Silakan login menggunakan akun kamu.</p>
+
+        
+<form onsubmit="window.location.href='profil.html'; return false;">
+
+    <input type="email"
+           placeholder="Masukkan Email"
+           required>
+
+    <input type="password"
+           placeholder="Masukkan Password"
+           required>
+
+    <button type="submit" class="tombol">
+        Login
+    </button>
+
+</form>
+
+<a href="index.html" class="tombol">Kembali</a>

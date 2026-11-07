@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Daftar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Formulir Pendaftaran</h1>
+        <p>Silakan isi data diri kamu.</p>
+
+       
+<form onsubmit="window.location.href='login.html'; return false;">
+
+    <input type="text"
+           placeholder="Nama Lengkap"
+           required>
+
+    <input type="text"
+           placeholder="NIM"
+           required>
+
+    <input type="email"
+           placeholder="Alamat Email"
+           required>
+
+    <input type="password"
+           placeholder="Buat Password"
+           required>
+
+    <button type="submit" class="tombol">
+        Daftar
+    </button>
+
+</form>
+
+<a href="index.html" class="tombol">Kembali</a>
